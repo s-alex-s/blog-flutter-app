@@ -1,0 +1,48 @@
+name: blog
+description: "Blogs"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.3
+  firebase_auth: ^4.16.0
+  firebase_core: ^2.24.2
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: Onest
+      fonts:
+        - asset: fonts/Onest/static/Onest-Thin.ttf
+          weight: 100
+        - asset: fonts/Onest/static/Onest-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/Onest/static/Onest-Light.ttf
+          weight: 300
+        - asset: fonts/Onest/static/Onest-Regular.ttf
+          weight: 400
+        - asset: fonts/Onest/static/Onest-Medium.ttf
+          weight: 500
+        - asset: fonts/Onest/static/Onest-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Onest/static/Onest-Bold.ttf
+          weight: 700
+        - asset: fonts/Onest/static/Onest-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/Onest/static/Onest-Black.ttf
+          weight: 900
